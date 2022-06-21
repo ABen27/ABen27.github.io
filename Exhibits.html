@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kelham Island</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #297A4C;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #BC9472;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #A6B07E;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #A6B07E;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #BA9E71;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #B2AB79;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Kelham Island</h1>
+  <p>A website created for kelham island created by abenhammouda2723@gmail.com.</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="ArTour.html">AR Tour</a>
+  <a href="Contact.html">Contact</a>
+  <a href="AboutUs.html">About Us</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Charlesworth Transport Gallery</h2>
+    <h5>Photo of Charlesworth Transport Gallery:</h5>
+    <div class="fakeimg" style="height:425px;"><Image src="kelham%20island%20exhibit1.jpg"></Image><p></p> Showcasing some of the finest Sheffield-made vehicles of the 1920s, The Charlesworth Transport Gallery explores the story of transport in Sheffield and its essential part of our industrial history.</div>
+    
+        <h3>Other Exiting Exhibits</h3>
+    <p>Visit These Other Exiting Exhibits</p>
+    <div class="fakeimg" style="height:60px;">The Hawley Gallery</div><br>
+    <div class="fakeimg" style="height:60px;">Stone Garden</div><br>
+    <div class="fakeimg" style="height:60px;">Bessemer Converter</div>
+  </div>
+  <div class="main">
+    <h2>Crossley Gas Engine</h2>
+    <h5>Photo of Crossley Gas Engine</h5>
+    <div class="fakeimg" style="height:400px;"><Image src="kelham%20island%20steam%20engine.jpg"height=305px;></Image><p></p> 
+        The Crossley Gas Engine was made by Crossley Brothers Ltd in Manchester in 1915. It drove a small rod and bar rolling mill on Penistone Road belonging to George Clark and it remained in use at the rolling mill in Sheffield until 1970.</div>
+
+    <br>
+    <h2>Gannister Mill</h2>
+    <h5>Photo of Gannister Mill</h5>
+    <div class="fakeimg" style="height:200px;"><Image src="Gannister%20Mill.jpg" style="height:150px"></Image>The Gannister MIll was used to grind ganister rock, a type of sandstone, into a paste which was used to seal joints inside furnaces.</div>
+
+  </div>
+</div>
+  
+
+</body>
+</html>
