@@ -1,0 +1,11 @@
+Model Information:
+* title:	Goku Drip
+* source:	https://sketchfab.com/3d-models/goku-drip-064b09ffdc5e442eaa8c19d20bf1dbb6
+* author:	bosk22222 (https://sketchfab.com/bosk22222)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Goku Drip" (https://sketchfab.com/3d-models/goku-drip-064b09ffdc5e442eaa8c19d20bf1dbb6) by bosk22222 (https://sketchfab.com/bosk22222) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
